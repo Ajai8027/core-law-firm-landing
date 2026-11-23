@@ -2,6 +2,11 @@
 
 Responsive single-page React landing page for Core Law Firm India.
 
+## Links
+
+- **Live site (Vercel):** https://core-law-firm-landing.vercel.app
+- **Source (GitHub):** https://github.com/Ajai8027/core-law-firm-landing
+
 ## Stack
 
 - React 19 + Vite
@@ -37,7 +42,9 @@ npm run preview
 
 ## Deploy
 
-Upload the project’s built `index.html`, `assets/`, and `favicon.svg` to static hosting. The built HTML uses relative asset paths.
+The project is deployed on **Vercel** as a static site (`vercel.json` sets `outputDirectory: "."` and `buildCommand: npm run build`). Production URL: https://core-law-firm-landing.vercel.app
+
+To deploy manually to any static host, upload the built `index.html`, `assets/`, and `favicon.svg`. The built HTML uses relative asset paths.
 
 ## Structure
 
