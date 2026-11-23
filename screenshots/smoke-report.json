@@ -1,0 +1,56 @@
+{
+  "browser": "Firefox (Playwright)",
+  "viewports": [
+    {
+      "width": 375,
+      "file": "C:\\Users\\karth\\OneDrive\\Desktop\\Vs Code\\Work-ID_652TThCQDu4AoOKes4ST\\652TThCQDu4AoOKes4ST_Deliverabales\\screenshots\\core-law-375.png",
+      "hasHorizontalOverflow": false,
+      "title": "Core Law Firm India"
+    },
+    {
+      "width": 768,
+      "file": "C:\\Users\\karth\\OneDrive\\Desktop\\Vs Code\\Work-ID_652TThCQDu4AoOKes4ST\\652TThCQDu4AoOKes4ST_Deliverabales\\screenshots\\core-law-768.png",
+      "hasHorizontalOverflow": false,
+      "title": "Core Law Firm India"
+    },
+    {
+      "width": 1440,
+      "file": "C:\\Users\\karth\\OneDrive\\Desktop\\Vs Code\\Work-ID_652TThCQDu4AoOKes4ST\\652TThCQDu4AoOKes4ST_Deliverabales\\screenshots\\core-law-1440.png",
+      "hasHorizontalOverflow": false,
+      "title": "Core Law Firm India"
+    }
+  ],
+  "checks": [
+    {
+      "name": "register nav href exists",
+      "pass": true
+    },
+    {
+      "name": "privacy expands",
+      "pass": true
+    },
+    {
+      "name": "validation shows errors",
+      "pass": true,
+      "errors": [
+        "Full name is required.",
+        "Email address is required.",
+        "Please select a topic of interest.",
+        "You must agree to the privacy notice before registering."
+      ]
+    },
+    {
+      "name": "invalid name/email errors",
+      "pass": true,
+      "errors": [
+        "Full name must be at least 2 characters.",
+        "Enter a valid email address."
+      ]
+    },
+    {
+      "name": "success message",
+      "pass": true,
+      "success": "Your interest has been recorded for this session."
+    }
+  ]
+}

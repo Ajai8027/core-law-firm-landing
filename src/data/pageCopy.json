@@ -1,0 +1,41 @@
+{
+  "brand": "Core Law Firm India",
+  "nav": [
+    {
+      "label": "Overview",
+      "href": "#overview"
+    },
+    {
+      "label": "Register",
+      "href": "#register"
+    }
+  ],
+  "eyebrow": "A CLEARER START",
+  "headline": "Make your next step a clearer one.",
+  "intro": "Register your interest in practical legal information for individuals and growing businesses.",
+  "cta": "Register your interest",
+  "points": [
+    "Clear topics",
+    "Simple registration",
+    "Accessible resources"
+  ],
+  "formTitle": "Stay informed",
+  "formIntro": "Choose a topic and register your interest.",
+  "fields": {
+    "fullName": "Full name",
+    "email": "Email address",
+    "topic": "Topic of interest",
+    "consent": "I agree to the privacy notice and the use of these details for this registration."
+  },
+  "topics": [
+    "Business documentation",
+    "Everyday legal information",
+    "Planning and preparation"
+  ],
+  "submit": "Register interest",
+  "privacyLink": "Read privacy notice",
+  "privacy": "This page records a registration response in your current browser session only. Details are not sent to a server. Do not include confidential case information. Refreshing the page clears your response.",
+  "success": "Your interest has been recorded for this session.",
+  "footer": "Core Law Firm India",
+  "footerNote": "General information only. This page does not provide legal advice or create a professional engagement."
+}
