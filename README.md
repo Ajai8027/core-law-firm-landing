@@ -10,6 +10,8 @@ https://core-law-firm-landing.vercel.app
 ## What is in this folder
 
 - `index.html` — the complete site. Open it directly in any modern browser, online or offline.
+- `assets/` — logo, artwork, and full-page screenshots for phone, tablet, and desktop (reference
+  only; the page does not load them).
 - `OPEN_LIVE_SITE.txt` — the live link and Google Drive sharing instructions.
 - `README.md` — this file.
 
