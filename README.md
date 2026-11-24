@@ -1,78 +1,34 @@
 # Core Law Firm India — Landing Page
 
-Responsive single-page React landing page for Core Law Firm India.
+A single, self-contained `index.html` landing page: HTML, CSS, JavaScript, artwork, and favicon all
+in one file. There is no build step and no runtime dependency.
 
-## Links
+## Live site
 
-- **Live site (Vercel):** https://core-law-firm-landing.vercel.app
-- **Source (GitHub):** https://github.com/Ajai8027/core-law-firm-landing
+https://core-law-firm-landing.vercel.app
 
-> **Google Drive note:** Google Drive is file storage, not a static web host. If you open `index.html` from a Drive link on mobile, it may show a blank white screen because linked CSS/JS files are not served like a website. Use the live Vercel link above, or open `index-standalone.html` for a single-file offline copy.
+## What is in this folder
 
-## Stack
+- `index.html` — the complete site. Open it directly in any modern browser, online or offline.
+- `OPEN_LIVE_SITE.txt` — the live link and Google Drive sharing instructions.
+- `README.md` — this file.
 
-- React 19 + Vite
-- Functional components: `Header`, `Hero`, `RegistrationForm`, `Footer`
-- External CSS, semantic HTML, responsive breakpoints at 600px / 1024px
-- Accessible registration form with validation and session-only success state
+## View the page
 
-## Setup
-
-```bash
-npm install
-```
-
-## Development
-
-```bash
-npm run dev
-```
-
-## Build / local browser preview
-
-```bash
-npm run build
-```
-
-After building, open **`index.html`** directly in your browser (double-click / `file://`). The build publishes a single root `index.html` plus `assets/` and `favicon.svg`, using relative paths and a non-module script so local file preview works without a server.
-
-You can also use:
-
-```bash
-npm run preview
-```
+- **Any device:** open the live site above. It is responsive and works on phones, tablets, and
+  desktops.
+- **Locally:** double-click `index.html`. It needs no server, no internet connection, and no
+  supporting files.
+- **From Google Drive:** Drive previews an HTML file as text/a download rather than rendering it as
+  a website. Use the live link above when sharing with someone who wants to see the page.
 
 ## Deploy
 
-The project is deployed on **Vercel** as a static site (`vercel.json` sets `outputDirectory: "."` and `buildCommand: npm run build`). Production URL: https://core-law-firm-landing.vercel.app
+Vercel serves this repository as a static site from the root directory. Commit and push to `main`,
+and the live site updates automatically. No install or build command is required.
 
-To deploy manually to any static host, upload the built `index.html`, `assets/`, and `favicon.svg`. The built HTML uses relative asset paths.
+## Behaviour
 
-## Structure
-
-```text
-.
-├── assets/                 # Built JS/CSS/favicon (included in deliverable)
-├── public/                 # Source favicon
-├── screenshots/            # Responsive and smoke-test evidence
-├── scripts/                # Build publish helper
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── data/
-│   ├── styles/
-│   ├── App.jsx
-│   └── main.jsx
-├── index.html              # Deployable/local-preview HTML (uses ./assets)
-├── index-standalone.html   # Single-file offline copy (CSS/JS/favicon inlined)
-├── favicon.svg
-├── OPEN_LIVE_SITE.txt      # Drive/mobile viewing instructions
-├── package.json
-├── README.md
-└── vite.config.js
-```
-
-## Notes
-
-- Registration is client-side only; responses are kept in memory for the current session and cleared on refresh.
-- No backend, authentication, payment, or database integrations.
+- The registration form validates name, email, topic, and consent in the browser.
+- A successful submission is kept only in the current browser session; refreshing clears it.
+- No data is sent to a server, and no backend, analytics, or external assets are used.

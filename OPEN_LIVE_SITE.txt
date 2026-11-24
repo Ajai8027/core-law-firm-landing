@@ -1,15 +1,21 @@
 Core Law Firm India - Landing Page
 
-Live website (works on desktop and mobile):
+Live website (works on mobile, tablet, and desktop):
 https://core-law-firm-landing.vercel.app
 
-Important note for Google Drive viewers:
-Google Drive is file storage, not a static website host. Opening index.html from a Drive folder link may show a blank white screen on mobile because linked files (CSS/JS) are not served as a website.
+What is in this folder
+- index.html - the complete website in one file (HTML, CSS, JavaScript, artwork, and favicon).
+- README.md - short project notes.
 
-How to view this project:
-1. Best option: open the live Vercel link above.
-2. Local preview: open index.html in a browser after keeping the assets/ folder next to it.
-3. Single-file offline option: open index-standalone.html (all CSS/JS/favicon inlined).
+Google Drive
+Google Drive stores and previews files; it does not host websites. Opening index.html from a Drive
+link will show a preview or download, not a working page. Use the live link above on any device.
 
-Source repository:
-https://github.com/Ajai8027/core-law-firm-landing
+To share this folder from Drive:
+1. Upload this whole folder to Google Drive.
+2. Right-click the folder and choose Share.
+3. Choose who can view it, then copy the link.
+4. Include the live website link above so people can open the actual page.
+
+Local / offline
+Double-click index.html. It works without internet access and without any other files.
