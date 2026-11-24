@@ -3,6 +3,10 @@ Core Law Firm India - Landing Page
 Live website (works on mobile, tablet, and desktop):
 https://core-law-firm-landing.vercel.app
 
+Source project
+This folder is the source for the Code Single-Page React Web Application Layout for Core Law Firm
+India. The deployed result is the live website above.
+
 What is in this folder
 - index.html - Vite entry shell. The website is built from the React source in src/ into dist/.
 - src/ - React components, styles, page copy, and artwork.

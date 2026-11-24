@@ -2,6 +2,11 @@
 
 Responsive single-page React application for Core Law Firm India.
 
+## Source of truth
+
+This folder is the source project for the **Code Single-Page React Web Application Layout for Core
+Law Firm India**. It contains the React source that builds and deploys the live site linked below.
+
 ## Live site
 
 https://core-law-firm-landing.vercel.app
