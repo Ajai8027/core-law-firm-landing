@@ -4,12 +4,14 @@ Live website (works on mobile, tablet, and desktop):
 https://core-law-firm-landing.vercel.app
 
 What is in this folder
-- index.html - the complete website in one file (HTML, CSS, JavaScript, artwork, and favicon).
-- README.md - short project notes.
+- index.html - Vite entry shell. The website is built from the React source in src/ into dist/.
+- src/ - React components, styles, page copy, and artwork.
+- public/ - favicon.
+- assets/ - logo, artwork, and responsive screenshots for reference.
 
 Google Drive
-Google Drive stores and previews files; it does not host websites. Opening index.html from a Drive
-link will show a preview or download, not a working page. Use the live link above on any device.
+Google Drive stores and previews files; it does not host websites or run build tools. Open the live
+link above on any device to see the working page.
 
 To share this folder from Drive:
 1. Upload this whole folder to Google Drive.
@@ -17,5 +19,5 @@ To share this folder from Drive:
 3. Choose who can view it, then copy the link.
 4. Include the live website link above so people can open the actual page.
 
-Local / offline
-Double-click index.html. It works without internet access and without any other files.
+Local development
+Install dependencies with "npm install", then run "npm run dev" or "npm run build".

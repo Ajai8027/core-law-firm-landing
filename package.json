@@ -1,6 +1,20 @@
 {
   "name": "core-law-firm-landing",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "private": true,
-  "description": "Single-file responsive landing page for Core Law Firm India."
+  "type": "module",
+  "description": "Single-page React application for Core Law Firm India.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.6"
+  }
 }

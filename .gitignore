@@ -6,3 +6,7 @@ Thumbs.db
 
 # Vercel local metadata
 .vercel
+
+# Dependencies and build output
+node_modules/
+dist/

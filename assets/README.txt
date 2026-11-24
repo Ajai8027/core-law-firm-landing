@@ -1,7 +1,8 @@
 Website assets (reference pack)
 
-These files are for documentation, presentations, and the Google Drive copy. The website does not
-need them: index.html contains all of its HTML, CSS, JavaScript, artwork, and favicon in one file.
+These files are for documentation, presentations, and the Google Drive copy. The React app bundles
+its own artwork from src/assets/ and public/favicon.svg, so this folder is not required to build or
+run the site.
 
 Logo
 - core-law-logo.svg - vector logo, original source

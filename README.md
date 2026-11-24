@@ -1,36 +1,50 @@
 # Core Law Firm India — Landing Page
 
-A single, self-contained `index.html` landing page: HTML, CSS, JavaScript, artwork, and favicon all
-in one file. There is no build step and no runtime dependency.
+Responsive single-page React application for Core Law Firm India.
 
 ## Live site
 
 https://core-law-firm-landing.vercel.app
 
+## Stack
+
+- React 19 + Vite
+- Components: `Header`, `Hero`, `RegistrationForm`, `Footer`
+- Plain CSS split by section, with design tokens in `src/styles/index.css`
+- Client-side form validation; no backend or external services
+
 ## What is in this folder
 
-- `index.html` — the complete site. Open it directly in any modern browser, online or offline.
+- `index.html` — Vite entry shell. The deployable HTML is generated into `dist/` by the build.
+- `src/` — React components, page copy, styles, and artwork.
+- `public/favicon.svg` — browser tab icon.
 - `assets/` — logo, artwork, and full-page screenshots for phone, tablet, and desktop (reference
-  only; the page does not load them).
+  pack for Google Drive; the app bundles its own copies from `src/` and `public/`).
 - `OPEN_LIVE_SITE.txt` — the live link and Google Drive sharing instructions.
-- `README.md` — this file.
 
-## View the page
+## Development
 
-- **Any device:** open the live site above. It is responsive and works on phones, tablets, and
-  desktops.
-- **Locally:** double-click `index.html`. It needs no server, no internet connection, and no
-  supporting files.
-- **From Google Drive:** Drive previews an HTML file as text/a download rather than rendering it as
-  a website. Use the live link above when sharing with someone who wants to see the page.
+```bash
+npm install
+npm run dev
+```
+
+## Build and local preview
+
+```bash
+npm run build
+npm run preview
+```
+
+The build output is written to `dist/`.
 
 ## Deploy
 
-Vercel serves this repository as a static site from the root directory. Commit and push to `main`,
-and the live site updates automatically. No install or build command is required.
+Vercel runs `npm run build` and serves `dist/`. Commit and push to `main` and the live site updates
+automatically.
 
-## Behaviour
+## Notes
 
 - The registration form validates name, email, topic, and consent in the browser.
-- A successful submission is kept only in the current browser session; refreshing clears it.
-- No data is sent to a server, and no backend, analytics, or external assets are used.
+- A successful submission is kept only for the current browser session; refreshing clears it.
+- No data is sent to a server.
